@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete Appointment</title>
+</head>
+
+<script>
+  document.write('<a href="' + document.referrer + '">Return to Main Page</a>');
+</script>
+
+<body>
+  <h1>Delete Appointment Details</h1>
+  <form action="deleteappointment.php" method="POST">
+    <label for="appointment_id">Appointment ID:</label>
+    <input type="text" id="appointment_id" name="appointment_id" required><br>
+
+    <button type="submit">Delete Appointment</button>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search for a Patient</title>
+
+</head>
+
+<script>
+  document.write('<a href="' + document.referrer + '">Return to Main Page</a>');
+</script>
+
+<body>
+  <div class="container">
+    <h2>Search for a Patient</h2>
+    <form action="searchpatient.php" method="POST">
+      <label for="name">Patient's Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter patient's name..." required><br>
+
+
+
+      <input type="submit" value="Search">
+    </form>
+  </div>
+</body>
+
+</html>

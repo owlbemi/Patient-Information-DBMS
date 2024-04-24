@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script>
+  document.write('<a href="' + document.referrer + '">Return to Main Page</a>');
+</script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Doctor </title>
+</head>
+
+<body>
+  <h1>Update Appointment Details</h1>
+  <form action="updatedoctor.php" method="post">
+    <label for="employeeID">Enter an employee ID to update:</label>
+    <input type="text" id="employeeID" name="employeeID" required><br>
+
+    <label for="department">New Specialty Department:</label>
+    <input type="text" id="department" name="department" required><br>
+
+    <label for="date">New name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="time">New phone number:</label>
+    <input type="text" id="phoneNumber" name="phoneNumber" required><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>

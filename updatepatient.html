@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Patient</title>
+</head>
+
+<script>
+  document.write('<a href="' + document.referrer + '">Return to Main Page</a>');
+</script>
+
+<body>
+  <h1>Update Patient Profile</h1>
+  <form action="updatepatient.php" method="post">
+    <label for="patientSsn">SSN (9 Digits):</label>
+    <input type="number" id="patientSsn" name="patientSsn" required pattern="^(\d{9})$"><br>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="sex">Sex: (M/F/O):</label>
+    <input type="text" id="sex" name="sex" required pattern=" *[MmFfOo]? *"><br>
+
+    <label for="dob">Date of Birth (DDMMYYYY):</label>
+    <input type="number" id="dob" name="dob"><br>
+
+    <label for="phoneNumber">Phone Number (XXX-XXX-XXXX):</label>
+    <input type="number" id="phoneNumber" name="phoneNumber"><br>
+
+    <label for="insuranceCode">Insurance Number (8-10 Digits):</label>
+    <input type="number" id="insuranceCode" name="insuranceCode" required pattern="^(\d{8}|\d{10})$"><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>

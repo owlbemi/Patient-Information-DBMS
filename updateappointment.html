@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script>
+  document.write('<a href="' + document.referrer + '">Return to Main Page</a>');
+</script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Appointment</title>
+</head>
+
+<body>
+  <h1>Update Appointment Details</h1>
+  <form action="updateappointment.php" method="post">
+    <label for="appointmentID">Enter an appointment ID to update:</label>
+    <input type="text" id="appointmentID" name="appointmentID" required><br>
+
+    <label for="employeeID">New Employee ID:</label>
+    <input type="text" id="employeeID" name="employeeID" required><br>
+
+    <label for="date">New Date (DDMMYYYY):</label>
+    <input type="text" id="date" name="date" required pattern="^(\d{8})$"><br>
+
+    <label for="time">New Time: (24 Hours format - HH:MM):</label>
+    <input type="text" id="time" name="time" required><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
