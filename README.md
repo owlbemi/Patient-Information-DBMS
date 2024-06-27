@@ -1,6 +1,6 @@
 # Patient-Information-DBMS
 ## Introduction
-This document serves as a comprehensive guide to the Patient Information Database Management System, a project designed to explore the fundamentals of database design and management. The system offers a platform for managing patient information within a healthcare setting, ensuring data integrity, scalability, and efficient data retrieval.
+This project serves as a brief interpretation of the Patient Information Database Management System, a project designed to explore the fundamentals of database design and management. The system offers a platform for managing patient information within a healthcare setting, ensuring data integrity, scalability, and efficient data retrieval.
 
 ## System Requirements
 The system caters to various user groups within the healthcare domain, including healthcare providers, insurance companies, and patients. Users can leverage the system to:
@@ -27,3 +27,14 @@ The document explores recommendations for enhancing database security and perfor
 
 ## User Application Interface
 The user interface provides a user-friendly platform for interacting with the database system. It employs HTML forms to facilitate CRUD operations and data retrieval. The interface prioritizes ease of use and streamlines the user experience.
+
+## Requirements
+- XAMPP (Apache Server)
+- mySQL and mySQLLite for .php file configuration
+- Website (.html) was built on [Replit](Replit.com)
+
+## Sample Run
+![ezcv logo](https://raw.githubusercontent.com/owlbemi/Patient-Information-DBMS/main/demo_images/demo1.png)
+![ezcv logo](https://raw.githubusercontent.com/owlbemi/Patient-Information-DBMS/main/demo_images/demo2.png)
+![ezcv logo](https://raw.githubusercontent.com/owlbemi/Patient-Information-DBMS/main/demo_images/demo3.png)
+![ezcv logo](https://raw.githubusercontent.com/owlbemi/Patient-Information-DBMS/main/demo_images/demo4.png)
